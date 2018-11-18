@@ -1,12 +1,3 @@
-var name = "Joe"
-var height = "74"
-
-// Don't worry about this
-module.exports = { name, height
-}
-if (test.js === "Joe") {
-    console.log("The name is correct")
-}
-else {
-    console.log("Expected the name to be Susan")
-}
+var index = require("./tests.js")
+ 
+console.log(index.name)
